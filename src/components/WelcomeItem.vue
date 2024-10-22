@@ -10,6 +10,7 @@
       <slot></slot>
     </div>
   </div>
+  <span>Olas</span>
 </template>
 
 <style scoped>
