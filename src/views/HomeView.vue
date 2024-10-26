@@ -1,9 +1,12 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+import Sidebar from '@/components/Layouts/Sidebar.vue'
+
+export default {
+  name: 'HomeView',
+  components: { Sidebar }
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <Sidebar />
 </template>
